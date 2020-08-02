@@ -66,6 +66,23 @@
 
 
 
+      @font-face {
+        font-family: 'apple R';
+        font-style: normal;
+        font-weight: normal;
+        src: local('apple R'), url('../font/AppleSDGothicNeoR.woff') format('woff');
+        }
+  
+
+        @font-face {
+          font-family: 'apple L';
+          font-style: normal;
+          font-weight: normal;
+          src: local('apple L'), url('../font/AppleSDGothicNeoL.woff') format('woff');
+          }
+
+
+
   @font-face { font-family: 'NanumGothic';
     src: url('/fonts/NanumGothic.eot');
     src: url('/fonts/NanumGothic.eot') format('embedded-opentype'),
@@ -473,18 +490,18 @@ position: absolute; top:230px; left: -90px; }
   }
   
   .web_title {
-	font-family: 'Noto Sans', sans-serif;
+	font-family: :'Gilroy-Medium ☞', sans-serif;
 	font-weight: 200;
-	font-size: 20px;
+	font-size: 22px;
 	-webkit-transform: translateY(100%);
 	transform: translateY(100%);
   }
   
   .web_arrow {
-	font-family: 'Noto Sans KR', sans-serif;
+	font-family: 'apple R', sans-serif;
 	font-weight: 200;
 	line-height: 27px;
-	font-size: 16px;
+	font-size: 18px;
 	-webkit-transform: translateY(100%);
 	transform: translateY(100%);
 	text-align: center;
@@ -646,18 +663,18 @@ position: absolute; top:230px; left: -90px; }
     }
     
     .app_title {
-    font-family: 'Noto Sans', sans-serif;
+    font-family: 'Gilroy-Medium ☞', sans-serif;
     font-weight: 200;
-    font-size: 20px;
+    font-size: 22px;
     -webkit-transform: translateY(100%);
     transform: translateY(100%);
     }
     
     .app_arrow {
-    font-family: 'Noto Sans KR', sans-serif;
+    font-family: 'apple R', sans-serif;
     font-weight: 200;
     line-height: 27px;
-    font-size: 16px;
+    font-size: 18px;
     -webkit-transform: translateY(100%);
     transform: translateY(100%);
     text-align: center;
@@ -824,18 +841,18 @@ position: absolute; top:230px; left: -90px; }
       }
       
       .ap_title {
-      font-family: 'Noto Sans', sans-serif;
+      font-family: 'Gilroy-Medium ☞', sans-serif;
       font-weight: 200;
-      font-size: 20px;
+      font-size: 22px;
       -webkit-transform: translateY(100%);
       transform: translateY(100%);
       }
       
       .ap_arrow {
-      font-family: 'Noto Sans KR', sans-serif;
+      font-family: 'apple R', sans-serif;
       font-weight: 200;
       line-height: 27px;
-      font-size: 16px;
+      font-size: 18px;
       -webkit-transform: translateY(100%);
       transform: translateY(100%);
       text-align: center;
@@ -973,18 +990,18 @@ position: absolute; top:230px; left: -90px; }
       }
       
       .ap_title {
-      font-family: 'Noto Sans', sans-serif;
+      font-family: 'Gilroy-Medium ☞', sans-serif;
       font-weight: 200;
-      font-size: 20px;
+      font-size: 22px;
       -webkit-transform: translateY(100%);
       transform: translateY(100%);
       }
       
       .ap_arrow {
-      font-family: 'Noto Sans KR', sans-serif;
+      font-family: 'apple R', sans-serif;
       font-weight: 200;
       line-height: 27px;
-      font-size: 16px;
+      font-size: 18px;
       -webkit-transform: translateY(100%);
       transform: translateY(100%);
       text-align: center;
@@ -1115,18 +1132,18 @@ position: absolute; top:230px; left: -90px; }
         }
         
         .ap_title {
-        font-family: 'Noto Sans', sans-serif;
+        font-family: 'Gilroy-Medium ☞', sans-serif;
         font-weight: 200;
-        font-size: 20px;
+        font-size: 22px;
         -webkit-transform: translateY(100%);
         transform: translateY(100%);
         }
         
         .ap_arrow {
-        font-family: 'Noto Sans KR', sans-serif;
+        font-family:  'apple R', sans-serif;
         font-weight: 200;
         line-height: 27px;
-        font-size: 16px;
+        font-size: 18px;
         -webkit-transform: translateY(100%);
         transform: translateY(100%);
         text-align: center;
