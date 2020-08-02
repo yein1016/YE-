@@ -1,0 +1,77 @@
+
+
+.hobby{
+width: 80%;
+height: 85%;
+position: absolute;
+left: 8%;
+bottom: 0;
+overflow: hidden;
+}
+
+.hobby div,.hobby ol{
+position: absolute;
+width: 25%;
+top: 0;
+}
+
+.hobby div h3{
+font-size: 100px;
+position: absolute;
+font-weight: 700;
+color: rgba(255, 255, 255, 0.8);
+}
+
+.hobby div p{
+position: absolute;
+font-size: 22px;
+color: #fff;
+font-weight: 300;
+}
+
+
+
+.hobby .picture{
+height: 100%;
+left: 25%;
+opacity: 0;
+transform: translateY(100%);
+transition: all 0.5s;  
+overflow: hidden;
+}
+
+.hobby .picture .bg{
+  background: url(../img/iconbox_new.jpg) no-repeat center;
+background-size: cover;
+}
+
+.hobby .picture:hover .bg{
+background: url(../img/iconbox_new.jpg);
+background-size: cover;
+transform: scale(1.1) translate(-50%,-50%);
+}
+
+.hobby .picture h3{
+top: 80%;
+left: 10%;
+transition: all 0.5s ease-out;
+transition-delay: 0.3s;
+}
+
+.hobby .picture p{
+top: 15%;
+left: 10%;
+transition: all 0.5s ease-out;
+transition-delay: 0.3s;
+}
+
+.hobby .cook:hover h3, .hobby .cook:hover p{
+opacity: 0;
+}
+
+
+
+
+
+
+
